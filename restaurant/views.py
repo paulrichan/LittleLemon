@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from restaurant.models import Booking, Menu
 from restaurant.serializers import BookingSerializer, MenuSerializer, UserSerializer
 from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated
 
 
 # Create your views here.
@@ -30,3 +31,4 @@ class UsersView(generics.ListAPIView):
 class BookingViewSet(viewsets.ModelViewSet):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
+    permission_classes = [IsAuthenticated]
