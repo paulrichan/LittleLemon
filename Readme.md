@@ -6,12 +6,6 @@
 
 Building RESTful APIs using [Django Rest Framework](https://www.django-rest-framework.org/) connected to a [MySQL](https://dev.mysql.com/downloads/) as part of the [Meta Back-End Developer Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer) taught by [Meta](https://www.facebook.com/business/learn/back-end-back-end-developer-certificate-coursera).
 
-<p align="center">
-    <a href="[https://images.credly.com/size/340x340/images/4d81763c-b917-4ab9-92be-103af95c0a21/image.png]">
-        <img src="images/meta-backend-cert.png" width="30%" height="30%" />
-    </a>
-</p>
-
 ## Steps to run the app
 
 ### 1. Install `pipenv`
